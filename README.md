@@ -8,7 +8,7 @@
 4. Buka Browser Localhost:5000/data untuk melihat data yang muncul
 ![app py localhost data](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/6def0c34-8635-4035-af93-a850babc13ab)
 5. Localhost:5000/metrics untuk melihat RMSE DAN R2
-![app py localhost metric](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/1b157738-1bdf-49f4-b8ee-0aa1b16e4f6f)
+![app py localhost metric](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/9cec54b4-54b0-4d53-8353-0462554608d4)
 6. Localhost:5000/predict-advertising?sales=50 untuk melihat data prediksi 50
 ![app py localhost sales 50](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/7e1bc362-7430-4163-b09a-2a6fed597675)
 7. Localhost:5000/predict-advertising?sales=100 untuk melihat data prediksi 100
