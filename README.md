@@ -4,7 +4,7 @@
 2. Aktifkan Environment Yang Dibuat 'conda activate nama_env
 ![Buat env dan aktifkan](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/c067d75a-f195-43e0-adfa-5800c8dce524)
 3. Jalankan app.py
-![jalankan python app py](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/f9ea8268-4bfc-4125-a498-ade8c0ba1020)
+![jalankan python app py](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/3a2974df-0239-4fa6-895d-5317cadb28de)
 4. Buka Browser Localhost:5000/data untuk melihat data yang muncul
 ![app py localhost data](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/6def0c34-8635-4035-af93-a850babc13ab)
 5. Localhost:5000/metrics untuk melihat RMSE DAN R2
