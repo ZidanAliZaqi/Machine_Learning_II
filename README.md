@@ -14,5 +14,6 @@
 7. Localhost:5000/predict-advertising?sales=100 untuk melihat data prediksi 100
 ![app py localhost sales 100](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/86421ff4-315d-46e0-b509-88ff3260ae9e)
 8. Localhost:5000/predict-advertising?sales=150 untuk melihat data prediksi 150
-![app py localhost sales 150](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/19677c3b-72b6-4ab5-afed-a42feae42a3e)
+![app py localhost sales 150](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/cc96b6fc-06f3-4bea-8ba7-db9e0b082e07)
+
 
