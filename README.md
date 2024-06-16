@@ -16,4 +16,7 @@
 8. Localhost:5000/predict-advertising?sales=150 untuk melihat data prediksi 150
 ![app py localhost sales 150](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/cc96b6fc-06f3-4bea-8ba7-db9e0b082e07)
 
+# Interpretasi:
+Model ini memiliki RMSE sebesar 15.019 dan R² score sebesar 0.271. RMSE yang tinggi menunjukkan bahwa prediksi model memiliki kesalahan rata-rata sekitar 15 juta dolar, yang cukup signifikan. R² score sebesar 0.271 mengindikasikan bahwa model hanya mampu menjelaskan sekitar 27.1% dari variabilitas dalam biaya iklan, menunjukkan bahwa banyak faktor lain yang mempengaruhi biaya iklan yang tidak ditangkap oleh model ini. Secara keseluruhan, ini mengindikasikan bahwa model memiliki kinerja yang kurang baik dalam memprediksi biaya iklan berdasarkan penjualan.
 
+Prediksi biaya iklan untuk mencapai 50, 100, dan 150 penjualan adalah masing-masing $66.20 juta, $143.43 juta, dan $220.66 juta. Meskipun memberikan gambaran kasar tentang biaya yang diperlukan, akurasi prediksi ini dipertanyakan karena tingginya nilai RMSE dan rendahnya R² score. Oleh karena itu, prediksi ini sebaiknya digunakan sebagai estimasi awal yang harus ditindaklanjuti dengan analisis lebih mendalam dan pertimbangan faktor-faktor tambahan sebelum membuat keputusan bisnis yang signifikan terkait anggaran iklan.
