@@ -63,12 +63,12 @@ def display_metrics():
     }
     return jsonify(metrics)
 
-# Create endpoint /predict-advertising
+# Buat endpoint /predict-advertising
 @app.route('/predict-advertising', methods=['POST', 'GET'])
 def predict():
     app.logger.debug("Received request for /predict-advertising")
 
-    # Get argument parameter from endpoint
+    # Ambil argument parameter dari endpoint
     data = request.args
     app.logger.debug(f"Request arguments: {data}")
 
@@ -76,15 +76,15 @@ def predict():
         pk_model = pickle.load(file)
     app.logger.debug("Model loaded successfully")
 
-    # Predict with regression model
+    # Prediksi dengan model regressi
     sales = np.array([[float(data['sales'])]])
     prediction = pk_model.predict(sales)
     output = prediction[0]
 
-    # Print prediction message
+    # Print prediction 
     app.logger.debug(f"Predicted advertising cost for {data['sales']} sales: ${output} million")
 
-    # Return structured prediction result
+    # Return prediction result
     response = {
         "Predicted Advertising Cost": output,
         "Sales Input": float(data['sales'])
@@ -92,6 +92,6 @@ def predict():
 
     return jsonify(response)
 
-# Run endpoint server
+# Jalankan endpoint server
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
