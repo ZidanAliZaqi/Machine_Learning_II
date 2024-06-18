@@ -1,7 +1,7 @@
 # Langkah-langkah:
 
 1. Buat Environment Python 'conda create -n "nama_env" python=3.11'
-2. Aktifkan Environment Yang Dibuat 'conda activate nama_env
+2. Aktifkan Environment Yang Dibuat 'conda activate nama_env'
 ![Buat env dan aktifkan](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/c067d75a-f195-43e0-adfa-5800c8dce524)
 3. Jalankan app.py
 ![jalankan python app py](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/3a2974df-0239-4fa6-895d-5317cadb28de)
