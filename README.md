@@ -3,17 +3,18 @@
 1. Buat Environment Python 'conda create -n "nama_env" python=3.11'
 2. Aktifkan Environment Yang Dibuat 'conda activate nama_env'
 ![Buat env dan aktifkan](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/c067d75a-f195-43e0-adfa-5800c8dce524)
-3. Jalankan app.py
+3. Jalankan 'pip install -r requirements.txt'
+4. Jalankan app.py
 ![jalankan python app py](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/3a2974df-0239-4fa6-895d-5317cadb28de)
-4. Buka Browser Localhost:5000/data untuk melihat data yang muncul
+5. Buka Browser Localhost:5000/data untuk melihat data yang muncul
 ![app py localhost data](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/6def0c34-8635-4035-af93-a850babc13ab)
-5. Localhost:5000/metrics untuk melihat RMSE DAN R2
+6. Localhost:5000/metrics untuk melihat RMSE DAN R2
 ![app py localhost metric](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/9cec54b4-54b0-4d53-8353-0462554608d4)
-6. Localhost:5000/predict-advertising?sales=50 untuk melihat data prediksi 50
+7. Localhost:5000/predict-advertising?sales=50 untuk melihat data prediksi 50
 ![app py localhost sales 50](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/7e1bc362-7430-4163-b09a-2a6fed597675)
-7. Localhost:5000/predict-advertising?sales=100 untuk melihat data prediksi 100
+8. Localhost:5000/predict-advertising?sales=100 untuk melihat data prediksi 100
 ![app py localhost sales 100](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/86421ff4-315d-46e0-b509-88ff3260ae9e)
-8. Localhost:5000/predict-advertising?sales=150 untuk melihat data prediksi 150
+9. Localhost:5000/predict-advertising?sales=150 untuk melihat data prediksi 150
 ![app py localhost sales 150](https://github.com/ZidanAliZaqi/Machine_Learning_II/assets/97864880/cc96b6fc-06f3-4bea-8ba7-db9e0b082e07)
 
 # Interpretasi
